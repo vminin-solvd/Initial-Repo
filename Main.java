@@ -21,7 +21,7 @@ public class Main {
             else if ((args[i] % 5 == 0) && (args[i] % 3 == 0)) {  // Changed = to ==
                 System.out.print("FizzBuzz"); // If the integer is divisible by 3 & 5 print "FizzBuzz"
             }
-            if(i != args.length - 1) {
+            if (i != args.length - 1) {
                 System.out.print(", "); // If the element is not the last element we print out ", "
             }
         }
